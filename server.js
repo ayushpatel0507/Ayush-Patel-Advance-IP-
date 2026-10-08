@@ -40,7 +40,7 @@ app.get("/api/getImage", (req, res) => {
     res.set("Access-Control-Allow-Origin", "*");
 
     res.sendFile(
-        path.join(__dirname, "images", "sallu.jpg")
+        path.join(__dirname, "images", "sallu.gif")
     );
 });
 
